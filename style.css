@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #314530;
+}
+.bg1{
+    height: 750px;
+    background-color: #314530;
+}
+.bg2{
+    height: 750px;
+    background-color: #f3ecd5;
+}
+img{
+    width: 200%;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.nav-logo{
+    max-width: 100px;
+}
+.nav-links{
+    font-family: 'Poppins';
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    gap: 5rem;
+}
+.link a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #fff;
+}
+.container .content{
+    margin: 10rem 0 0 0;
+    display: grid;
+    justify-content: center;
+
+}
+header .content h1{
+    font-family: 'Abril Fatface';
+    margin: 0 0 5rem 0;
+    color:#fff;
+    font-size: 56px;
+    font-weight: 200;
+}
+header .content a{
+    font-family: 'Poppins';
+    display: grid;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    justify-content: center;
+    background:transparent;
+    padding: 4px;
+    width: 500px;
+    border: 3px #fff solid;
+    border-radius: 25px;
+    margin: 0 4.5rem 0 4.5rem;
+    transition: 0.5s;
+}
+header .content a:hover{
+    background-color: #fff;
+    color: #314530;
+}
+section img{ 
+    width: 100px;
+}
