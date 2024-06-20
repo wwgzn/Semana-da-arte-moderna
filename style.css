@@ -96,7 +96,7 @@ header .content a{
     color: #fff;
     font-size: 28px;
     font-weight: 500;
-    justify-content: center;
+    text-align: center;
     background:transparent;
     padding: 4px;
     width: 500px;
@@ -166,5 +166,206 @@ section img{
     flex: 2;
     }
 }
+footer{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    font-size: 14px;
+    color: #FCEAD6;
+    background-color: #314530;
+    display: grid;
+}
+footer img{
+    width: 200px;
+    justify-self:center ;
+    margin-bottom: 1rem
+}
+@media(max-width:900px){
+    *{
+        max-width: 900px;
+        padding: 0;
+        margin: 0;
+        outline: none;
+        border: none;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #314530;
+    }
+    .bg1{
+        max-width: 900px;
+        height: 400px;
+        background-color: #314530;
+    }
+    .bg2{
+        max-width: 900px;
+        height: 750px;
+        padding: 2rem 0 2rem 0;
+        background-color: #f3ecd5;
+    }
+    .bg3{
+        max-width: 900px;
+        height: 750px;
+        padding: 2rem 0 2rem 0;
+        background-color: #3f332e;
+    }
+    img{
+        width: 200%;
+        display: flex;
+    }
+    a{
+        text-decoration: none;
+    }
+    nav{
+        max-width: 600px;
+        margin: auto;
+        padding: 1rem 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .nav-logo{
+        max-width: 20px;
+    }
 
+    .nav-links{
+        font-family: 'Poppins';
+        list-style: none;
+        display: flex;
+        font-size: 10px;
+        align-items: center;
+        text-align: center;
+        gap: 0.5rem;
+    }
+    .link a{
+        position: relative;
+        padding-bottom: 0.25rem;
+        color: #fff;
 
+    }
+    li a::after{
+        content: "";
+        align-items: center;
+        position: absolute;
+        width: 0;
+        left: 50%;
+        bottom: 0;
+        height: 2px;
+        background-color: #ffffff;
+        border-radius: 30px;
+        transition: 1s;
+    }
+    li a:hover::after{
+        width: 100%;
+        left: 0%;
+    }
+    .container .content{
+        margin: 2rem 0 0 0;
+        display: grid;
+        justify-content: center;
+
+    }
+    header .content h1{
+        font-family: 'Abril Fatface';
+        margin: 0 0 3rem 0;
+        color:#fff;
+        font-size: 36px;
+        text-align: center;
+        font-weight: 200;
+    }
+    header .content a{
+        font-family: 'Poppins';
+        display: grid;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        background:transparent;
+        padding: 4px;
+        width: 250px;
+        border: 3px #fff solid;
+        border-radius: 25px;
+        text-align: center;
+        transition: 0.5s;
+    }
+    header .content a:hover{
+        background-color: #fff;
+        color: #314530;
+    }
+    section img{ 
+        width: 70px;
+    }
+    .nacionais {
+        text-align: center;
+        margin: 1rem 0.5rem 3rem 0.5rem;
+        font-family: 'Poppins';
+        font-size: 34px;
+        color: #3f332e;
+    }
+    .conteudo{
+        display:grid;
+        img{
+            margin: 3rem 0 0 0;
+            width: 300px;
+            border-radius: 10px;
+        }
+        .image{
+            display: grid;
+            width: 100%;
+        }
+    }
+    .conteudo .content{
+        margin: 0 0 0 0;
+        font-family: 'Abril Fatface';
+        color: #3f332e;
+        font-size: 30px;
+        width: 300px;
+        p{
+            margin: 25px 0 0 0;
+            font-family: 'Poppins';
+            font-size: 14px;
+        }
+
+    }
+    .conteudo2{
+        display:grid;
+        img{
+            margin: 3rem 0 0 0;
+            width: 300px;
+            border-radius: 10px;
+        }
+        .image{
+            display: grid;
+            width: 100%;
+        }
+    }
+    .conteudo2 .content{
+        margin: 0 0 0 0;
+        font-family: 'Abril Fatface';
+        color: #f3ecd5;
+        font-size: 30px;
+        width: 300px;
+        p{
+            margin: 25px 0 0 0;
+            font-family: 'Poppins';
+            font-size: 14px;
+        }
+
+    }
+        footer{
+            margin-top: 10px;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+            font-size: 14px;
+            color: #FCEAD6;
+            background-color: #314530;
+            display: grid;
+        }
+        footer img{
+            width: 100px;
+            justify-self:center ;
+            margin-bottom: 1rem
+        }
+}
